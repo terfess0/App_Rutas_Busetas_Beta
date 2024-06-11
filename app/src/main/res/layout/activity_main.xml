@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fondox"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:backgroundTint="#ffffff">
+
+    <EditText
+        android:id="@+id/filtro"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:imeOptions="actionDone"
+        android:maxLines="1"
+        android:background="@drawable/bord_filtro"
+        android:backgroundTint="#E8E0E0"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:gravity="center_vertical"
+        android:elevation="3dp"
+        android:ems="10"
+        android:hint="Busca sitios o rutas"
+        android:inputType="text"
+        android:visibility="gone" />
+    <TextView
+        android:id="@+id/noResultados"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="#9A0000"
+        android:textStyle="bold"
+        android:text="Sin Resultados"
+        android:gravity="center"
+        android:visibility="gone"
+        android:minHeight="90dp"
+        />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cabezera"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/bord_suave"
+        android:backgroundTint="#2BB80B">
+
+        <TextView
+            android:id="@+id/saludo"
+            android:layout_width="198dp"
+            android:layout_height="74dp"
+            android:fontFamily="@font/roboto"
+            android:gravity="center"
+            android:text="Buenos dias"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.963"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="56dp"
+            android:layout_height="26dp"
+            android:fontFamily="@font/roboto"
+            android:gravity="center"
+            android:text="Precio: "
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.046"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.877" />
+
+        <TextView
+            android:id="@+id/precio"
+            android:layout_width="wrap_content"
+            android:layout_height="26dp"
+            android:background="@drawable/bord_suave"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="@font/roboto"
+            android:gravity="center"
+            android:textColor="#4A4343"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/textView"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.87" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/cajaInfo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+</LinearLayout>

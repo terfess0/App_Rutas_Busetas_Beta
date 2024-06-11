@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Rutas Busetas</string>
+    <string name="creditos_texto">Agradecemos a todos los que contribuyeron al desarrollo de esta aplicación:\n\n- Desarrollador: Terfess\n- Diseño Gráfico: Terfess\n- Iconos proporcionados por: Webs Uso Libre
+</string>
+    <string name="privacidad">Queremos asegurarte que valoramos tu privacidad.\n\n- Esta aplicación no recopila ni almacena ningún dato personal tuyo.\n- No realizamos seguimientos ni compartimos información con terceros.\n- Tu privacidad es nuestra prioridad.\n\n¡Gracias por usar nuestra aplicación!</string>
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:map="http://schemas.android.com/tools"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/map" >
+    <ImageButton
+        android:id="@+id/irgps"
+        android:elevation="3dp"
+        android:theme="@style/Theme.general"
+        android:background="@drawable/bord_boton_gps"
+        app:srcCompat="@drawable/gps_off"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginEnd="30dp"
+        android:layout_gravity="right"
+        android:contentDescription="TODO"
+         />
+    <TextView
+        android:id="@+id/infoColor"
+        android:backgroundTint="#00FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="45dp"
+        android:layout_height="60dp"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        />
+
+    <ImageView
+        android:id="@+id/parqueadero"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="80dp"
+        android:backgroundTint="#00FFFFFF"
+        android:layout_marginLeft="90dp"
+        app:srcCompat="@drawable/parqueadero_icon" />
+
+    <TextView
+        android:id="@+id/failConection"
+        android:backgroundTint="#00FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="550dp"
+        />
+</fragment>
+

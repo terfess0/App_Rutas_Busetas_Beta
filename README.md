@@ -1,6 +1,6 @@
 # 🚍 Rutas Busetas
 
-**Rutas Busetas** es una aplicación desarrollada por el autor de este GitHub y en el entorno de la Universidad Internacional del Trópico Americano (Unitrópico). Esta aplicación tiene como objetivo proporcionar información detallada sobre las rutas del transporte público colectivo de una ciudad, incluyendo horarios y ubicaciones específicas.
+Esta aplicación tiene como objetivo proporcionar información detallada sobre las rutas del transporte público colectivo de una ciudad, incluyendo horarios y ubicaciones específicas.
 
 ## 🌟 Características
 
